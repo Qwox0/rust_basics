@@ -48,4 +48,6 @@ fn main() {
     // structs::run();
     // enums::run();
     cli::run();
+
+    // Test
 }
