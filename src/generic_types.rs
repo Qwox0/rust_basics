@@ -6,7 +6,7 @@ struct Point<T: Display, U: Display> {
     x: T,
     y: U,
 }
-// Point Structor of two displayable types
+// Point Structor of two types with Display Trait
 
 impl<T: Display, U: Display> Point<T, U> {
     fn new(x: T, y: U) -> Point<T, U> {
