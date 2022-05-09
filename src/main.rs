@@ -14,41 +14,14 @@
 // Alternatives: cargo build            : just build
 // Alternatives: cargo build --release  : build for release
 
-// import other files:
-// mod print;
-// mod vars;
-// mod types;
-// mod strings;
-// mod tuples;
-// mod arrays;
-// mod vectors;
-// mod conditionals;
-// mod loops;
-// mod functions;
-// mod pointer_ref;
-// mod structs;
-// mod enums;
+// import other files/dirs:
 mod traversy_media;
+mod lets_get_rusty;
 
 
 fn main() {
-    // import run() from print.rs
-    // print::run();
+    // import run() from traversy_media/cli.rs
+    // traversy_media::cli::run();
 
-    // vars::run();
-    // types::run();
-    // strings::run();
-    // tuples::run();
-    // arrays::run();
-    // vectors::run();
-    // conditionals::run();
-    // loops::run();
-    // functions::run();
-    // pointer_ref::run();
-    // structs::run();
-    // enums::run();
-    traversy_media::cli::run();
-
-    // Test
-    // Test2
+    lets_get_rusty::enums::run();
 }
