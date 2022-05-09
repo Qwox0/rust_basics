@@ -1,5 +1,6 @@
 // Reference Pointer -> point to memory location
 
+#[allow(dead_code)]
 pub fn run() {
     // primitive array
     let arr1 = [1, 2, 3];

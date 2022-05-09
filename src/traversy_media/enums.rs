@@ -20,6 +20,7 @@ fn move_avatar(m: Movement) {
     // must contain all possibilities
 }
 
+#[allow(dead_code)]
 pub fn run() {
     let avatar1 = Movement::Left;
     let avatar2 = Movement::Up;

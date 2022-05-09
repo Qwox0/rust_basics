@@ -28,7 +28,7 @@
 // mod pointer_ref;
 // mod structs;
 // mod enums;
-mod cli;
+mod traversy_media;
 
 
 fn main() {
@@ -47,7 +47,7 @@ fn main() {
     // pointer_ref::run();
     // structs::run();
     // enums::run();
-    cli::run();
+    traversy_media::cli::run();
 
     // Test
     // Test2

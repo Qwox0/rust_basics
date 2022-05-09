@@ -5,6 +5,7 @@ Float: f32, f64
 bool, char
 */
 
+#[allow(dead_code)]
 pub fn run() {
     let x = 1;  // by default: i32
     let y = 2.5;  // by default: f64

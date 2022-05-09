@@ -1,5 +1,6 @@
 // immutable by default
 
+#[allow(dead_code)]
 pub fn run() {
     let name = "Jan";
     let mut age = 18;

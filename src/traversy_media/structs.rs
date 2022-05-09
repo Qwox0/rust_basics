@@ -43,6 +43,7 @@ impl Person {
     }
 }
 
+#[allow(dead_code)]
 pub fn run() {
     let mut c = Color {red: 255, green: 0, blue: 0};
     c.red = 200;

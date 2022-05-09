@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 pub fn run() {
     // print to console
     println!("Hello from from print.rs");

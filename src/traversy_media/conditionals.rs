@@ -1,5 +1,6 @@
 // conditionals -> check conditions
 
+#[allow(dead_code)]
 pub fn run() {
     let age: u8 = 18;
     let check_id: bool = false;

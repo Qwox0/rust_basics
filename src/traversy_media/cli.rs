@@ -1,6 +1,8 @@
 // cli: Command Line interface
+
 // cargo run <params>
 
+#[allow(dead_code)]
 pub fn run() {
     let args: Vec<String> = std::env::args().collect();
     let command = args[1].clone();

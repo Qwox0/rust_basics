@@ -2,6 +2,7 @@
 
 use std::mem;
 
+#[allow(dead_code)]
 pub fn run() {
     let mut numbers: [i32; 5] = [1, 2, 3, 4, 5];  // must be 5 integer init values
 

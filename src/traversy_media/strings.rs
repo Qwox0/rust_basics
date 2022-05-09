@@ -1,6 +1,7 @@
 // Privitive string: immutable, fixed-legth
 // String: growable, heap-allocated data structure
 
+#[allow(dead_code)]
 pub fn run() {
     let hello = "Hello"; // privitive string
     let mut hello2 = String::from("Hello");

@@ -2,6 +2,7 @@
 
 use std::mem;
 
+#[allow(dead_code)]
 pub fn run() {
     // let mut numbers: [i32; 5] = [1, 2, 3, 4, 5];  // ref: array
     let mut numbers: Vec<i32> = vec![1, 2, 3, 4];
