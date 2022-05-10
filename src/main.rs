@@ -24,4 +24,5 @@ fn main() {
     // traversy_media::cli::run();
 
     lets_get_rusty::enums::run();
+    lets_get_rusty::ch02_guessing_game::run();
 }
