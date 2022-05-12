@@ -33,13 +33,12 @@ impl Message {
     }
 }
 
-
 // ------------------
 // Coin Enum
 enum Coin {
     Silver,
     Gold,
-    Custom { value: u64 },  // Custom -> value struct
+    Custom { value: u64 }, // Custom -> value struct
 }
 
 fn get_coin_value(coin: &Coin) -> u64 {
@@ -49,7 +48,7 @@ fn get_coin_value(coin: &Coin) -> u64 {
         Coin::Gold => {
             println!("Gold!");
             1000
-        },
+        }
         Coin::Custom { value: val } => val,
         // Custom Variant with value val (wildcard: _)
         // -> return val
@@ -65,7 +64,7 @@ impl Coin {
             Self::Gold => {
                 println!("Gold!");
                 1000
-            },
+            }
             Self::Custom { value: val } => val,
         }
     }
@@ -73,6 +72,7 @@ impl Coin {
 
 // =====================
 // main
+#[allow(unused)]
 pub fn run() {
     // --- No Data in Enum
     // let localhost = IpAddress {
@@ -83,18 +83,21 @@ pub fn run() {
     #[allow(unused_variables)]
     let localhost = IpAddressKind::IPv4(127, 0, 0, 1);
 
-
     // --- Coins
     let s_coin = Coin::Silver;
     let g_coin = Coin::Gold;
     let my_coin = Coin::Custom { value: 333 };
-    println!("silver: {}; gold: {}; my_coin: {}", get_coin_value(&s_coin), g_coin.value(), get_coin_value(&my_coin) );
+    println!(
+        "silver: {}; gold: {}; my_coin: {}",
+        get_coin_value(&s_coin),
+        g_coin.value(),
+        get_coin_value(&my_coin)
+    );
     // Note: g_coin.value() == &g_coin.value()
-
 
     // Option Enum
     // Rust: no null values -> optional Values
-    #[derive(Debug)]  // autoimplement Debug Trait
+    #[derive(Debug)] // autoimplement Debug Trait
     enum Option2<T> {
         Some(T),
         None,
@@ -116,5 +119,4 @@ pub fn run() {
     // Option.unwrap(): get value of Some
     //      if None: use unwrap_or() default value
     // _var: unused variable
-    
 }
