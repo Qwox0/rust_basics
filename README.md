@@ -1,1 +1,1 @@
-execute ./compile/rust-basics.exe
+execute ./exe/rust-basics.exe
