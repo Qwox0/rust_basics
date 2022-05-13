@@ -23,5 +23,6 @@ fn main() {
     // traversy_media::cli::run();
 
     // lets_get_rusty::ch02_guessing_game::run();
-    other::function_as_parameter::run();
+    // other::function_as_parameter::run();
+    other::propability_calc::run();
 }
