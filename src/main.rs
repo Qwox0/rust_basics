@@ -22,5 +22,6 @@ fn main() {
     // import run() from traversy_media/cli.rs
     // traversy_media::cli::run();
 
-    lets_get_rusty::ch02_guessing_game::run();
+    // lets_get_rusty::ch02_guessing_game::run();
+    other::function_as_parameter::run();
 }
