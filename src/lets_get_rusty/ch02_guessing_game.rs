@@ -10,8 +10,9 @@ use std::cmp::Ordering; // result enum of a number comparison
 
 #[allow(unused)]
 pub fn run() {
-    let secret_number = rand::thread_rng().gen_range(1..101); // 101 exclusive
-                                                              // println!("\nSecret number: {}", secret_number);
+    let secret_number = rand::thread_rng().gen_range(1..101);
+    // 101 exclusive
+    // println!("\nSecret number: {}", secret_number);
 
     loop {
         println!("\nGuess the number (1 to 100)");
