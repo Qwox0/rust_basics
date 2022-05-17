@@ -19,12 +19,15 @@ pub fn run() {
     println!("vector length: {}", numbers.len());
 
     // stack allocated memory
-    println!("this vector occupies {} bytes with {} bytes per element", mem::size_of_val(&numbers), mem::size_of_val(&numbers[0]));
+    println!(
+        "this vector occupies {} bytes with {} bytes per element",
+        mem::size_of_val(&numbers),
+        mem::size_of_val(&numbers[0])
+    );
 
     // array slice
     let slice: &[i32] = &numbers[1..3];
     println!("Slice: {:?}", slice);
-
 
     // ^^^ same as array ^^^
     // new:
@@ -48,7 +51,4 @@ pub fn run() {
     }
 
     println!("Vectir after change: {:?}", numbers);
-
-
-
 }

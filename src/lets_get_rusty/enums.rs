@@ -90,7 +90,7 @@ pub fn run() {
     println!(
         "silver: {}; gold: {}; my_coin: {}",
         get_coin_value(&s_coin),
-        g_coin.value(),
+        g_coin.value(), // Alternative
         get_coin_value(&my_coin)
     );
     // Note: g_coin.value() == &g_coin.value()
