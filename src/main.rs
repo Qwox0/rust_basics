@@ -24,5 +24,6 @@ fn main() {
 
     // lets_get_rusty::ch02_guessing_game::run();
     // other::function_as_parameter::run();
-    other::error_management::run();
+    // other::error_management::run();
+    lets_get_rusty::ch04_ownership::run();
 }
