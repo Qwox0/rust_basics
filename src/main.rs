@@ -16,6 +16,7 @@
 // import other files/dirs:
 mod lets_get_rusty;
 mod other;
+mod tests;
 mod traversy_media;
 
 fn main() {
@@ -25,5 +26,6 @@ fn main() {
     // lets_get_rusty::ch02_guessing_game::run();
     // other::function_as_parameter::run();
     // other::error_management::run();
-    lets_get_rusty::ch04_ownership::run();
+    // lets_get_rusty::ch04_ownership::run();
+    let _ = tests::run::run();
 }
